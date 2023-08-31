@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+    <title> HELMET DETECTION AND NUMBER PLATE RECOGNITION IN REAL-TIME</title>
+    <style>
+        /* body { 
+            background-image: url("");
+            background-repeat: no-repeat;
+            background-size: cover;
+        /* } */
+         body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        } 
+        
+
+		.box {
+			border: 2px solid black;
+			padding: 20px;
+			display: flex;
+			justify-content: center;
+			align-items: right;
+			height: 40vh;
+		
+		}
+        .box2 {
+        /* border: 2px solid black; */
+        padding: 0px;
+        display: right;
+        justify-content: flex-end;
+        align-items: center;
+        height: 40vh;
+        }
+
+        .box2 img {
+         max-width: 100%;
+        max-height: 100%;
+        }
+
+        .container-title {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            background-color: #222;
+        }
+
+        .title {
+            font-size: 4rem;
+            color: #fff;
+            text-shadow: 0px 0px 20px #545353;
+            padding: 20px;
+            background-color: #333;
+            border-radius: 10px;
+            box-shadow: 0px 0px 30px #fff;
+        }
+
+        .text {
+            font-size: 1.5rem;
+            color: black;
+            text-shadow: 0px 0px 10px #fff;
+            padding: 20px;
+            background: #e4e7e4;
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px #fff;
+        }
+
+
+        h1 {
+        text-align: center;
+        font-size: 48px;
+        color: #0a6bea;
+        margin: 0;
+        text-shadow: 2px 2px 4px #080808;
+        }
+
+        h2 {
+        font-size: 28px;
+        color: #004b87;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        }
+
+        p {
+        font-size: 20px;
+        line-height: 1.5;
+        text-align: justify;
+        margin-bottom: 30px;
+        }
+        .container-box {
+        border: 2px solid #ccc; /* border width and color */
+        padding: px; /* spacing between text and border */
+        background-color: #e4e7e4; /* non-dominant background color */
+        box-shadow: 0 0 10px #fff; /* glowing effect */
+        }
+
+        .container-box p {
+        font-size: 24px; /* adjust font size as needed */
+        color: black; /* text color */
+        text-align: justify; /* center text */
+        text-shadow: 0 0 10px #7f7f7f; /* glowing effect */
+        }
+        .container-box1 {
+        border: 2px solid #ccc; /* border width and color */
+        padding: px; /* spacing between text and border */
+        background-color: #e4e7e4; /* non-dominant background color */
+        box-shadow: 0 0 10px #fff; /* glowing effect */
+        }
+
+        .container-box1 p {
+        font-size: 24px; /* adjust font size as needed */
+        color: black; /* text color */
+        text-align: justify; /* center text */
+        text-shadow: 0 0 10px #7f7f7f; /* glowing effect */
+        }
+        .container-hd{
+        font-size: 35px;
+        color:#004b87;
+        text-align: center;
+        font-weight: bold;
+        text-shadow: black;
+        }
+        .container-ld{
+        font-size: 35px;
+        color:#004b87;
+        text-align: center;
+        font-weight: bold;
+        text-shadow: black;
+        }
+    </style>
+    <body>
+        <form method="POST" action="{{ url_for('about')}}"></form>
+    
+        <div class="container-title">
+            <h1 class="title">HELMET DETECTION AND NUMBER PLATE RECOGNITION IN REAL-TIME</h1>
+             <p class="text">
+             Helmet detection and number plate recognition are two important features of modern-day surveillance systems. These features are particularly relevant in the realm of traffic management and law enforcement. With the advent of computer vision and machine learning technologies and computer vision algorithms, these features are being efficiently integrated into various surveillance systems to ensure better road safety and enforce traffic legislation. In recent years, the development and integration of computer vision algorithms have enabled advanced surveillance systems to detect whether motorcycle riders are wearing helmets and recognize number plates on vehicles from surveillance camera feeds.
+                The main need for helmet detection and number plate recognition is to enhance road safety and enforce traffic laws and ensure people's security. By detecting whether motorcycle riders are wearing helmets, law enforcement personnel can efficiently enforce helmet laws and take appropriate action against those who violate these legislations. Keeping multiple road safety measures in mind, the incorporation of helmet detection systems into traffic cameras allows for real-time monitoring and detecting instances where riders are not wearing helmets. Various methods, including background subtraction and moving object detection, are used to detect the presence of motorcycle riders' helmets in surveillance footage. However, one of the main challenges in helmet detection is to differentiate between helmets and other round objects that may appear in the footage.
+                On the other hand, number plate recognition is a critical component in ensuring road safety and enforcing traffic laws. By recognizing the number plates of vehicles in real-time, traffic modules can issue fines to drivers who violate traffic regulations such as over-speeding and parking violations. For generating an E-challan this software must be linked to a Government API. 
+            </p>
+        </div>
+
+       
+            <h2 class="container-hd">HELMET DETECTION</h2>
+            <div class="container-box">
+                <p>This is the most adequate process which involves various computer vision algorithms which can keep track of every rider and can detect whether the helmet is present or not. The System developed here also contains many machine-learning techniques that enable it to recognize helmets and distinguish them from other headgear. There is trained data that is efficient to distinguish between helmets and other objects like hats or caps. The integration of helmet detection into surveillance systems is particularly useful in situations where human monitoring is not feasible, such as high-traffic areas or remote highways. Police officials cannot always monitor in all directions if there is heavy traffic, and any such negligence could pose a threat to the safety of motorists. Taking such situations into consideration this system was developed to work in a real-time environment. </p>
+                <p>This system can give accurate results about whether riders are wearing helmets or not, helping improve compliance with helmet laws and increase road safety. This is especially important given that traditional surveillance cameras might fail to detect helmets from a distance or in poor lighting conditions. </p>
+                <div class="box"><img src="https://images.unsplash.com/photo-1678115815507-2efc68b66a84?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Helmet Detection Image" width="500" height="300" >
+                    <div class="box2">
+                        <img src="https://www.researchgate.net/publication/343632920/figure/fig2/AS:924053195997191@1597322858588/Detection-of-rider-wearing-helmet_Q640.jpg" alt="helmet" width="500" height="300">
+                    </div>
+                </div>
+            </div>
+
+        <h2 class="container-ld">NUMBER PLATE DETECTION</h2>
+        <div class="container-box1">
+            <p>
+             To ensure road safety via traffic law enforcement and management, Automatic Number Plate Recognition plays a significant role. Combining this with the helmet detection  system mentioned earlier can lead to a more comprehensive traffic surveillance system. Here the number plate can also be saved by clicking on 's'. This number plate detection is required because if any of the riders is detected without a helmet number plate can be recognized and an E-challan can be generated. Moreover, Automatic Number Plate Recognition can also assist with border management by tracking vehicles crossing into and out of a country. Here the data is trained in a well-efficient way in which the number plate is only recognized and if the number plate is wanted we click 's' to save the image in .jpeg format. The following image will be saved in the file created in the system. In conclusion, the integration of helmet detection and license plate recognition systems in traffic surveillance can greatly improve road safety by enforcing compliance with laws and reducing the risk of accidents caused by negligent driving. 
+            </p>
+            <p>
+                Furthermore, the use of image labeling techniques such as automatic recognition of individual motorists and detection of suspicious behavior in sequential images can provide valuable insights for traffic management. For example, with the help of Computer Vision solutions, image labeling can be used to automatically detect and track a particular individual's movements within a traffic environment, providing useful data for traffic analysis and management.
+            </p>
+            <div class="box">
+                <img src="https://actec-security.com/wp-content/uploads/2021/02/59.jpg" alt="Helmet Detection Image" width="500" height="300" >
+                <div class="box2">
+                    <img src="https://actec-security.com/wp-content/uploads/2021/02/58-1024x681.jpg" alt="number" width="500" height="300">
+                </div>
+            </div>
+
+        </div>
+        <div style="background-color: #f1f1f1; padding: 20px;">
+            <div style="border: 2px solid #ccc; padding: 20px;">
+                <h2>Contact Us</h2>
+                <p>Feel free to contact us with any questions or comments:</p>
+                <ul>
+                    <li>Email: example@example.com</li>
+                    <li>Phone: 555-555-5555</li>
+                    <li>Address: 123 Main St, Anytown USA</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
