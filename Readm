@@ -1,0 +1,4 @@
+This Project has a user interface where you can select either Helmet detection or Number plate detection.
+The number plate captured will be stored in a file.
+Helmet detection is its best accuracy for detection the bikers helmet.
+Use flask run to the run  the code.
