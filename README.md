@@ -10,3 +10,9 @@ The programs inside are error free.... If found any error, feel free to contact 
 Note:
 Please use IDLE 3.8 or 3.9
 For the webpage use Visual Studio.
+
+Results
+![x](https://github.com/user-attachments/assets/fa4bc022-59f5-467d-8635-fdf9a2bbfa32)
+![x1](https://github.com/user-attachments/assets/2045a321-2c9e-44d2-9c19-821e588d242d)
+
+
